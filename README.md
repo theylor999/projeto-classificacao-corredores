@@ -47,8 +47,10 @@ O código segue a estrutura de um pipeline simples para treinar o modelo de clas
 O modelo teve um resultado **ótimo**, alcançando **94.7% de acurácia** nos meus testes. Esse desempenho foi alcançado após o treinamento com os dados filtrados e a remoção do corredor "Combos", que impactava negativamente a qualidade das previsões.
 
 **Acurácia**: A acurácia foi medida em relação ao percentual de previsões corretas em comparação com o total de amostras testadas. O modelo obteve uma precisão de 94.7%, o que é um excelente resultado para a tarefa de classificação de produtos nos corredores de supermercado, dado a complexidade e a diversidade dos dados 🎉.
+
 ![Gráfico de Acurácia](images/grafico_acuracia.png)
 
 **Matriz de Confusão**: A matriz de confusão revelou que o modelo tinha uma boa capacidade de diferenciar entre os diferentes corredores, com algumas pequenas confusões em categorias com produtos similares 🏷️.
+
 ![Gráfico da Matriz de Confusão](images/grafico_matriz.png)
 
