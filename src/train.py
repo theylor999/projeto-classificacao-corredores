@@ -30,7 +30,7 @@ if len(df) > amostra:
 X_train, X_test, y_train, y_test = train_test_split(df["produto"], df["corredor"], test_size=0.2, random_state=42)
 
 # Vetorização TF-IDF
-print("Vetorizando textos...")
+print("Vetorizando os textos...")
 vectorizer = TfidfVectorizer(max_features=10_000)
 X_train_tfidf = vectorizer.fit_transform(tqdm(X_train, desc="Vetorizando treino"))
 X_test_tfidf = vectorizer.transform(tqdm(X_test, desc="Vetorizando teste"))
@@ -40,7 +40,7 @@ X_train_tfidf = csr_matrix(X_train_tfidf).astype(np.float32)
 X_test_tfidf = csr_matrix(X_test_tfidf).astype(np.float32)
 
 # Treinamento do modelo
-print("Treinando modelo...")
+print("Treinando o modelo...")
 model = SGDClassifier(loss="hinge", max_iter=1000, n_jobs=-1)
 model.fit(X_train_tfidf, y_train)
 
