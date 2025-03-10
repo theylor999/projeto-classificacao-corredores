@@ -49,7 +49,9 @@ O modelo teve um resultado **ótimo**, alcançando **94.7% de acurácia** nos me
 ### Como o resultado foi alcançado:
 
 1. **Acurácia**: A acurácia foi medida em relação ao percentual de previsões corretas em comparação com o total de amostras testadas. O modelo obteve uma precisão de 94.7%, o que é um excelente resultado para a tarefa de classificação de produtos nos corredores de supermercado, dado a complexidade e a diversidade dos dados 🎉.
+![Gráfico de Acurácia](images/grafico_2.png)
 
-2. **Matriz de Confusão**: A matriz de confusão revelou que o modelo tinha uma boa capacidade de diferenciar entre os diferentes corredores, com algumas pequenas confusões em categorias com produtos similares 🏷️.
+3. **Matriz de Confusão**: A matriz de confusão revelou que o modelo tinha uma boa capacidade de diferenciar entre os diferentes corredores, com algumas pequenas confusões em categorias com produtos similares 🏷️.
+![Gráfico da Matriz de Confusão](images/grafico_1.png)
 
-3. **Desempenho em Dados Reais**: Durante os testes com amostras reais, o modelo conseguiu classificar corretamente os corredores de muitos produtos que variam de itens de marcas populares a marcas menos conhecidas 🔍.
+4. **Desempenho em Dados Reais**: Durante os testes com amostras reais, o modelo conseguiu classificar corretamente os corredores de muitos produtos que variam de itens de marcas populares a marcas menos conhecidas 🔍.
