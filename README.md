@@ -53,11 +53,3 @@ O modelo teve um resultado **ótimo**, alcançando **94.7% de acurácia** nos me
 2. **Matriz de Confusão**: A matriz de confusão revelou que o modelo tinha uma boa capacidade de diferenciar entre os diferentes corredores, com algumas pequenas confusões em categorias com produtos similares 🏷️.
 
 3. **Desempenho em Dados Reais**: Durante os testes com amostras reais, o modelo conseguiu classificar corretamente os corredores de muitos produtos que variam de itens de marcas populares a marcas menos conhecidas 🔍.
-
-## Possíveis Melhorias Futuras 🔮:
-
-- **Ajuste de Parâmetros**: Embora o modelo tenha mostrado um ótimo desempenho, poderia ser aprimorado com a realização de um **ajuste de hiperparâmetros** 🔧.
-- **Dados de Treinamento**: Aumentar a quantidade de dados de treinamento e incluir mais amostras de produtos com nomes mais complexos pode ajudar o modelo a generalizar melhor para novos casos 🚀.
-- **Exploração de Outros Modelos**: Testar **SVM (Support Vector Machine)** ou **Redes Neurais** para melhorar a acurácia ⚡.
-
-Esse excelente desempenho mostra que a abordagem de utilizar técnicas de **Machine Learning** com dados de supermercado pode ser muito eficaz para melhorar a categorização e a navegação de produtos 🛍️.
