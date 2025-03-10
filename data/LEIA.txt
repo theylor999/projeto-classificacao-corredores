@@ -1,0 +1,1 @@
+Coloque o arquivo CSV aqui, ou edite o código de treinamento para fazer uma query diretamente pro seu banco de dados com os produtos e corredores.
