@@ -1,1 +1,13 @@
 Coloque o arquivo CSV aqui, ou edite o código de treinamento para fazer uma query diretamente pro seu banco de dados com os produtos e corredores.
+Exemplo:
+
+produto,corredor
+"Agua Sanitária Qualitá 2l",Limpeza
+"Alcool Coperalcool Liquido Lavanda 46º Inpm 1lt",Limpeza
+"Alcool Coperalcool Liquido Tradicional 46 Inpm 1lt",Limpeza
+"Alcool Zulu Liquido Tradicional 46 Inpm 1lt",Limpeza
+"Alvejante Qualitá sem Cloro Embalagem 1,5l",Limpeza
+"Amaciante Azul Aconchego Ypê Leve 2l Pague 1,6l",Limpeza
+"Amaciante Concentrado Azul Qualitá 500ml",Limpeza
+"Amaciante Concentrado Brisa Suave Downy 1l",Limpeza
+"Amaciante Concentrado Brisa Suave Downy 1l",Limpeza
